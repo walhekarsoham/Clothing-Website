@@ -1,0 +1,155 @@
+/* Section */
+.testimonials {
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.testimonial-wrapper {
+  position: relative;
+  max-width: 900px;
+  margin: 40px auto 0;
+  padding-bottom: 70px;
+}
+
+
+.title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.testi-image{
+  width: 120px;
+  height: 120px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+
+
+.slider {
+  overflow: hidden;
+  max-width: 720px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+
+.slider-track {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slide {
+  min-width: 100%;
+  padding-top: 60px;     /* reduced */
+  position: relative;
+}
+
+/* Quotes */
+.quote {
+  font-size: 90px;
+  color: #cfeae3;
+  position: absolute;
+}
+
+.quote.left {
+  left: -40px;
+  top: 40px;
+}
+
+.quote.right {
+  right: -40px;
+  bottom: 60px;
+}
+
+
+.quote-text {
+  font-size: 24px;
+  line-height: 1.6;
+  padding: 0 20px;
+  margin-bottom: 28px;
+}
+
+.author {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.stars {
+  color: #fbbf24;
+  font-size: 22px;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.dots span {
+  width: 8px;
+  height: 8px;
+  background: #d1d5db;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dots span.active {
+  background: #111827;
+}
+
+/* Floating avatars */
+.avatar {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.avatar.top.left { top: -90px; left: 160px; }
+.avatar.top.center {
+  top: -130px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 84px;
+  height: 84px;
+}
+.avatar.top.right { top: -90px; right: 160px; }
+
+.avatar.middle.left { top: 40px; left: -60px; }
+.avatar.middle.right { top: 40px; right: -60px; }
+
+.avatar.bottom.left {
+  bottom: -20px;   /* ⬅ was -140px */
+  left: 220px;
+}
+
+.avatar.bottom.right {
+  bottom: -20px;
+  right: 220px;
+}
+
+
+/* Mobile safety */
+@media (max-width: 768px) {
+  .avatar,
+  .quote {
+    display: none;
+  }
+
+  .quote-text {
+    font-size: 20px;
+  }
+}

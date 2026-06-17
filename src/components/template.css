@@ -1,0 +1,144 @@
+/* ===========================
+   SECTION BASE
+=========================== */
+
+.gifting-section {
+  position: relative;
+  width: 100%;
+  padding: 80px 8%;
+  background: linear-gradient(
+    135deg,
+    #3b0000 0%,
+    #8b0000 50%,
+    #b30000 100%
+  );
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.gifting-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===========================
+   LAYOUT
+=========================== */
+
+.gifting-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* ===========================
+   TEXT CONTENT
+=========================== */
+
+.gifting-text {
+  flex: 1;
+  color: white;
+}
+
+.gifting-text h5 {
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.gifting-text h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+.gifting-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  opacity: 0.85;
+  max-width: 500px;
+}
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.gift-btn {
+  background: white;
+  color: #8b0000;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gift-btn:hover {
+  background: #111;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* ===========================
+   IMAGE
+=========================== */
+
+.gifting-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.gifting-image img {
+  max-width: 100%;
+  height: auto;
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 1024px) {
+  .gifting-text h1 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gifting-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .gifting-text h1 {
+    font-size: 36px;
+  }
+
+  .gifting-text p {
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .gifting-image {
+    margin-top: 40px;
+  }
+}

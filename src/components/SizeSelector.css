@@ -1,0 +1,41 @@
+.size-wrapper {
+  margin: 20px 0;
+}
+
+.size-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+.size-options {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.size-btn {
+  min-width: 70px;
+  padding: 12px 0;
+  border-radius: 14px;
+  border: 1.5px solid #d1d5db;
+  background: #f3f4f6;
+  font-size: 15px;
+  font-weight: 500;
+  color: #111827;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.size-btn:hover {
+  border-color: #111827;
+}
+
+/* Active State */
+.size-btn.active {
+  background: #f9fafb;
+  border: 2px solid #111827;
+  box-shadow: 0 0 0 3px rgba(17, 24, 39, 0.05);
+}
