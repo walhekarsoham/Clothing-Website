@@ -62,6 +62,14 @@ const Navbar = ({ isSticky }) => {
           </Link>
 
           <div className="ms-auto d-flex align-items-center gap-3">
+            <a
+              className="digital-heroes-btn"
+              href="https://digitalheroesco.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Built for Digital Heroes
+            </a>
 
             {/* SEARCH */}
             <div className="search-wrapper">

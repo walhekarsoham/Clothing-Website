@@ -19,6 +19,24 @@
   margin-bottom: 24px;
 }
 
+.footer-contact {
+  margin-bottom: 24px;
+}
+
+.footer-contact p {
+  margin: 0 0 8px;
+  color: #111827;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-contact a {
+  color: #4b5563;
+  font-size: 16px;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
 /* Socials */
 .socials a {
   display: flex;
@@ -50,7 +68,8 @@
 }
 
 .footer-col a:hover,
-.socials a:hover {
+.socials a:hover,
+.footer-contact a:hover {
   color: #2563eb;
 }
 

@@ -9,6 +9,13 @@ const Footer = () => {
         <div className="footer-brand">
           <h2 className="logo">MyShop</h2>
 
+          <div className="footer-contact">
+            <p>Soham Walhekar</p>
+            <a href="mailto:walhekarsoham07@gmail.com">
+              walhekarsoham07@gmail.com
+            </a>
+          </div>
+
           <div className="socials">
             <a href="#"><i className="bi bi-facebook text-primary"></i> Facebook</a>
             <a href="#"><i className="bi bi-youtube text-danger"></i> Youtube</a>
