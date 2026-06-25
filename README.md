@@ -1,6 +1,6 @@
 # Clothing E-Commerce Website
 
-![Project Banner or Screenshot](src/assets/screenshot)
+![Project Banner or Screenshot](src/assets/screenshot/home.png)
 
 ## About the Project
 
