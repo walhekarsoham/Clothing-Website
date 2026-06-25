@@ -1,16 +1,6 @@
 # Clothing E-Commerce Website
 
-![Project Banner or Screenshot](./screenshot.png)
-
-## Live Demo
-
-[Live URL](https://your-vercel-or-netlify-link.com)
-
-## GitHub Repository
-
-[GitHub Repo](https://github.com/walhekarsoham/Clothing-Website)
-
----
+![Project Banner or Screenshot](src/assets/screenshot)
 
 ## About the Project
 
@@ -149,17 +139,6 @@ PORT=5000
 
 ---
 
-## Screenshots
-
-| Page | Screenshot |
-|---|---|
-| Home / Landing | ![Home](./screenshots/home.png) |
-| Product Detail | ![Detail](./screenshots/detail.png) |
-| Cart | ![Cart](./screenshots/cart.png) |
-| Checkout | ![Checkout](./screenshots/checkout.png) |
-
----
-
 ## What I Learned
 
 - Building a full-stack React and Express application with separate frontend and backend setup.
@@ -173,7 +152,6 @@ PORT=5000
 
 **Soham Walhekar**  
 Email: walhekarsoham07@gmail.com  
-[Portfolio](https://sohamwalhekar.dev) | [GitHub](https://github.com/walhekarsoham)
 
 ---
 
